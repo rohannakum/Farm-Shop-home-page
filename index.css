@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("BackGroundImage.jpg");
+    background-size: cover
+}
+
+/* NavBar Style  */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* NavBar Logo */
+.navBarLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarLogo img {
+    width: 90px;
+}
+
+.navBarLogo p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/* NavBar Links */
+.navBarLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin: 10px;
+
+}
+
+li :hover {
+    color: chartreuse;
+}
+
+.navBarLinks p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0px 10px;
+}
+
+.navBarLinks div img {
+    width: 30px;
+    margin: auto 10px;
+}
+
+.navBarLinks div img:hover {
+    filter: drop-shadow(3px 3px 3px grey);
+}
+
+/* Main start here */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.logo_name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px auto 10px auto;
+}
+
+.logo_name img {
+    width: 200px;
+    padding: 0px;
+    filter: drop-shadow(6px 6px 6px black);
+}
+
+.logo_name p {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Caprasimo', cursive;
+    font-size: 90px;
+    font-weight: 700;
+    filter: drop-shadow(6px 6px 6px black);
+    padding: 0px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Caprasimo', cursive;
+    font-size: 90px;
+    font-weight: 700;
+    filter: drop-shadow(4px 4px 4px black);
+}
+
+.btn_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    margin: 20px;
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    background-color: rgba(128, 255, 0, 0.716);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#button:hover{
+    background-color: rgba(128, 255, 0, 0.916);
+}
